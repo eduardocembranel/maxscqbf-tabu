@@ -105,7 +105,10 @@ public class TSSCQBF extends AbstractTS<Integer> {
         indices.sort(Comparator.comparingInt(i -> varfrequency[i]));
         List<Integer> leastUsedVars = indices.subList(0, Math.min(k, indices.size()));
 
-        sol.addAll(leastUsedVars);
+        for (Integer v : leastUsedVars) {
+            sol.add(v);
+            CL.remove(v);
+        }
     }
 
     @Override
