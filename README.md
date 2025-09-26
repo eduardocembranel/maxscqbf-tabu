@@ -1,3 +1,12 @@
+# MAX-SC-QBF Solver
+
+This project implements five methods of Tabu Search variations to solve the **MAX-SC-QBF** problem
+
+## Requirements
+
+- Java JDK 17+
+- Unix based operational system (optional)
+
 ## Compile (Linux or Mac)
 
 ```

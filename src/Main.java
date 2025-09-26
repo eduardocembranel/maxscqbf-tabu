@@ -18,7 +18,7 @@ public class Main {
         var fileName = "instances/" + instance + ".txt";
 
         int t1 = 20, t2 = 5;
-        int maxTimeSecs = 40;
+        int maxTimeSecs = 1800;
 
         var stdOut = System.out;
 
