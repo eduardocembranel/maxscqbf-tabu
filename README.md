@@ -24,6 +24,8 @@ java -cp out Main <instance_name> <method>
 java -cp out Main exact_n25 std
 ```
 
+#### Available instances are those present in the `./instances` and the <instance_name> is the name of the file (without the extension)
+
 #### Available methods are:
 * std
 * std+t2
