@@ -1,0 +1,47 @@
+instance=instances/exp_n50.txt method=std+t2
+Solution from CH:
+t=0.01 Solution: cost=[-612.4099999999999], size=[13], elements=[9, 14, 26, 27, 11, 34, 24, 7, 20, 35, 8, 40, 42]
+Solutions from TS:
+it=1 t=0.01 cost=-613.49 size=14
+it=2 t=0.03 cost=-740.15 size=15
+it=3 t=0.03 cost=-773.97 size=16
+it=4 t=0.03 cost=-780.50 size=17
+it=5 t=0.03 cost=-798.90 size=18
+it=6 t=0.03 cost=-863.15 size=19
+it=7 t=0.03 cost=-864.48 size=20
+it=8 t=0.03 cost=-868.51 size=21
+it=9 t=0.03 cost=-906.63 size=22
+it=10 t=0.03 cost=-975.73 size=23
+it=11 t=0.03 cost=-1083.63 size=24
+it=12 t=0.03 cost=-1137.83 size=25
+it=13 t=0.03 cost=-1265.44 size=26
+it=14 t=0.03 cost=-1374.41 size=27
+it=15 t=0.03 cost=-1376.42 size=28
+it=16 t=0.03 cost=-1444.28 size=29
+it=17 t=0.03 cost=-1481.89 size=30
+it=18 t=0.03 cost=-1611.99 size=31
+it=19 t=0.03 cost=-1675.02 size=32
+it=20 t=0.03 cost=-1706.48 size=33
+it=21 t=0.03 cost=-1854.32 size=34
+it=22 t=0.03 cost=-1860.42 size=35
+it=23 t=0.03 cost=-1881.51 size=36
+it=24 t=0.03 cost=-2006.46 size=35
+it=25 t=0.04 cost=-2040.53 size=34
+it=26 t=0.04 cost=-2059.83 size=33
+it=27 t=0.04 cost=-2062.97 size=32
+it=28 t=0.04 cost=-2072.80 size=33
+it=29 t=0.04 cost=-2073.63 size=34
+it=30 t=0.04 cost=-2079.79 size=33
+it=31 t=0.04 cost=-2088.69 size=34
+it=32 t=0.04 cost=-2092.22 size=33
+it=33 t=0.05 cost=-2133.89 size=32
+it=34 t=0.05 cost=-2139.48 size=31
+it=35 t=0.05 cost=-2169.82 size=30
+it=36 t=0.05 cost=-2174.34 size=31
+it=37 t=0.06 cost=-2182.96 size=31
+it=38 t=0.06 cost=-2196.48 size=30
+it=45 t=0.09 cost=-2199.55 size=30
+it=46 t=0.09 cost=-2232.15 size=31
+it=47 t=0.09 cost=-2233.18 size=32
+it=52 t=0.10 cost=-2236.16 size=30
+it=53 t=0.10 cost=-2244.87 size=31

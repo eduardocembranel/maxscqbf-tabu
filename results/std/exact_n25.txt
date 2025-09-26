@@ -1,0 +1,24 @@
+instance=instances/exact_n25.txt method=std
+Solution from CH:
+t=0.0 Solution: cost=[-329.9], size=[5], elements=[12, 4, 19, 5, 14]
+Solutions from TS:
+it=1 t=0.01 cost=-348.72 size=6
+it=2 t=0.01 cost=-376.11 size=7
+it=3 t=0.01 cost=-402.41 size=8
+it=4 t=0.01 cost=-416.19 size=9
+it=5 t=0.01 cost=-467.57 size=10
+it=6 t=0.01 cost=-532.98 size=11
+it=7 t=0.01 cost=-559.62 size=12
+it=8 t=0.01 cost=-624.29 size=13
+it=9 t=0.01 cost=-625.31 size=14
+it=10 t=0.01 cost=-654.16 size=15
+it=11 t=0.01 cost=-715.30 size=16
+it=12 t=0.01 cost=-850.94 size=17
+it=13 t=0.01 cost=-899.92 size=18
+it=14 t=0.01 cost=-914.17 size=17
+it=15 t=0.01 cost=-921.31 size=16
+it=16 t=0.01 cost=-969.34 size=15
+it=17 t=0.01 cost=-980.87 size=16
+it=18 t=0.02 cost=-988.21 size=15
+it=19 t=0.02 cost=-997.03 size=14
+it=20 t=0.02 cost=-1004.74 size=15

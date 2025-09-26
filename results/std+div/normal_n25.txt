@@ -1,0 +1,24 @@
+instance=instances/normal_n25.txt method=std+div
+Solution from CH:
+t=0.0 Solution: cost=[-314.66], size=[6], elements=[11, 4, 13, 21, 24, 23]
+Solutions from TS:
+it=1 t=0.01 cost=-315.92 size=7
+it=2 t=0.01 cost=-344.70 size=8
+it=3 t=0.01 cost=-350.59 size=9
+it=4 t=0.01 cost=-453.56 size=10
+it=5 t=0.01 cost=-465.75 size=11
+it=6 t=0.01 cost=-470.94 size=12
+it=7 t=0.01 cost=-490.17 size=13
+it=8 t=0.01 cost=-517.10 size=14
+it=9 t=0.01 cost=-531.88 size=15
+it=10 t=0.01 cost=-548.65 size=16
+it=11 t=0.01 cost=-583.96 size=17
+it=12 t=0.01 cost=-660.25 size=18
+it=13 t=0.01 cost=-749.91 size=19
+it=14 t=0.01 cost=-891.03 size=20
+it=15 t=0.01 cost=-916.09 size=19
+it=16 t=0.01 cost=-958.39 size=18
+it=17 t=0.01 cost=-966.04 size=17
+50 iterations without improvement, diversifying...
+150 iterations without improvement, diversifying...
+500 iterations without improvement, diversifying...

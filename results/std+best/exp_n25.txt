@@ -1,0 +1,11 @@
+instance=instances/exp_n25.txt method=std+best
+Solution from CH:
+t=0.0 Solution: cost=[-480.0], size=[7], elements=[11, 12, 13, 22, 3, 4, 8]
+Solutions from TS:
+it=1 t=0.01 cost=-538.40 size=8
+it=2 t=0.01 cost=-568.58 size=9
+it=3 t=0.01 cost=-631.54 size=10
+it=4 t=0.01 cost=-694.02 size=10
+it=5 t=0.02 cost=-734.36 size=11
+it=6 t=0.02 cost=-740.27 size=12
+it=99 t=0.04 cost=-751.90 size=12
