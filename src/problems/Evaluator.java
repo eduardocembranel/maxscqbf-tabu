@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * type E (domain)) to a Double (image). It is a useful representation of an
  * objective function for an optimization problem.
  *
- * @author ccavellucci, fusberti
+ * @author ccavellucci, fusberti, ecembranel
  * @param <E>
  */
 public interface Evaluator<E> {

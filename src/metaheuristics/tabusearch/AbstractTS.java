@@ -17,7 +17,7 @@ import solutions.Solution;
 /**
  * Abstract class for metaheuristic Tabu Search. It consider a minimization problem.
  *
- * @author ccavellucci, fusberti
+ * @author ccavellucci, fusberti, ecembranel
  * @param <E>
  *            Generic type of the candidate to enter the solution.
  */
@@ -84,12 +84,18 @@ public abstract class AbstractTS<E> {
      */
     protected ArrayDeque<E> TL;
 
+    /**
+     * Whether the disersification strategy is enabled in the search
+     */
     protected Boolean enableDiversification;
 
+    /**
+     * Whether the intensification strategy is enabled in the search
+     */
     protected Boolean enableIntensification;
 
     /**
-     * the frequency each variable appeared in the solution
+     * long-term frequency memory (how many times each variable appeared in the solution)
      */
     protected int[] varfrequency;
 
@@ -145,10 +151,23 @@ public abstract class AbstractTS<E> {
      */
     public abstract Solution<E> neighborhoodMove();
 
+    /**
+     * Updates the varFrequency memory (used for diversification)
+     */
     public abstract void updateVarFrequency();
 
+    /**
+     * @Param: a value in the interval (0,1) that should be used to decide how many new variables should change/enter
+     * the solution to diversify
+     *
+     * Diversify the search by restart
+     */
     public abstract void diverfisyByRestart(double factor);
 
+    /**
+     *
+     * Intensifies the currently best global solution using more complex neighborhood operations
+     */
     public abstract Solution<E> intensify();
 
     /**
